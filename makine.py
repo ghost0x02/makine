@@ -59,7 +59,6 @@ def on_key_press(event):
     elif key == '2':
         update_coordinates(0, 0, -1)
 
-
 root = tk.Tk()
 root.title("Pres Makinesi Kontrolü")
 
@@ -80,7 +79,6 @@ stamp_button.pack(pady=10)
 
 menu_button = tk.Button(root, text="Menu", command=menu, bg='white', fg='magenta')
 menu_button.pack(pady=10)
-
 
 coords_label = tk.Label(root, text=f"X: {x}, Y: {y}, Z: {z}", font=("Helvetica", 16))
 coords_label.pack(pady=20)
