@@ -3,6 +3,7 @@
 #Konsol olmadan klavyenin yön tuşlarından sağ-sol "X" kontrol eder.
 #Yukarı-aşağı "Y" kontrol eder.
 #Ve son olarak 1-2 tuşları "X" kontrol eder.
+#Hidrolik sistemleri koda göre derleyebilirsiniz.
 #Bu bir test kodudur makineye bağlanılabilir.
 
 import tkinter as tk
